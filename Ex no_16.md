@@ -18,7 +18,6 @@ To write a C program to find minimum between three fraction numbers using condit
 int main() {
 float a, b, c, min;
 scanf("%f%f%f", &a, &b, &c);
-// Finding minimum using conditional operator 
 min = (a < b) ? ((a < c) ? a : c) : ((b < c) ? b : c);
 printf("Minimum between %.3f, %.3f and %.3f = %.3f\n",a,b,c, min);
 return 0;
